@@ -1,0 +1,46 @@
+/* CityHistory.css */
+
+.city-history {
+  background-color: #33333355;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.city-history h2 {
+  color: white;
+}
+
+.city-history ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+.city-history li {
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #33333355;
+}
+
+.city-history li:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.city-history button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.city-history button:hover {
+  background-color: #ff3c1e;
+}
