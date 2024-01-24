@@ -11,8 +11,9 @@ const formatTime = (date: Date) => {
 };
 
 const formatDate = (date: Date) => {
-  const options = { year: 'numeric', month: 'long', day: 'numeric' };
-  return date.toLocaleDateString(undefined, options);
+  const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+  const locales: string | string[] | undefined = undefined;  
+  return date.toLocaleDateString(locales, options);
 };
 
 const Nav: React.FC = () => {
