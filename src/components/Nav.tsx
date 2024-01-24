@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';  
 
-const formatTime = (date) => {
+const formatTime = (date: Date) => {
   const hours = date.getHours();
   const minutes = date.getMinutes();
   const ampm = hours >= 12 ? 'pm' : 'am';
@@ -10,7 +10,7 @@ const formatTime = (date) => {
   return `${formattedHours}:${formattedMinutes} ${ampm}`;
 };
 
-const formatDate = (date) => {
+const formatDate = (date: Date) => {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   return date.toLocaleDateString(undefined, options);
 };
